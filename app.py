@@ -4,7 +4,7 @@ import plotly.express as px
 from pathlib import Path
 
 st.set_page_config(page_title="Supply Chain Performance Analytics", page_icon="📦", layout="wide")
-DATA_PATH = Path(__file__).parent / "data" / "supply_chain_public.csv"
+DATA_PATH = Path(__file__).parent / "data" / "supply_chain_public.csv.gz"
 CHART_FILTERS = {
     "chart_market": "Market", "chart_category": "Category Name",
     "chart_segment": "Customer Segment", "chart_delivery_status": "Delivery Status",
